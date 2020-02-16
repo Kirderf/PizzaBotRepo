@@ -11,7 +11,7 @@ Chromedriver(for Chrome browser)
 
 class Pizzabakeren():
     def __init__(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Firefox("/home/runner/work/PizzaScripts/PizzaScripts/geckodriver")
 
         self.driver.get("http://www.pizzabakeren.no") # Opens website
         sleep(1.0)
